@@ -2,6 +2,9 @@
 
 ShopMood is a mobile shopping application developed for those who love shopping through mobile applications with an orange and purple theme. Clothing, technology, etc. Anyone who aims to shop in areas and has Android operating system devices can benefit from the application.
 
+## GIF
+![](https://media.giphy.com/media/BPI4L914dNrncenwgN/giphy.gif)
+
 
 ## Tech Stack
 - [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started) - Handle everything needed for in-app navigation. asynchronous tasks for optimal execution.
