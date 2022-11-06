@@ -4,6 +4,7 @@ ShopMood is a mobile shopping application developed for those who love shopping 
 
 ## GIF
 ![](https://media.giphy.com/media/BPI4L914dNrncenwgN/giphy.gif)
+![](https://media.giphy.com/media/ehOOE4WAp2forEo1KI/giphy.gif)
 
 
 ## Tech Stack
