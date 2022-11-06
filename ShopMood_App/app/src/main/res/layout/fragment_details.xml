@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toTopOf="@+id/detailsImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="sans-serif"
+        android:text="Details"
+        android:textColor="@color/custom_color_secondary"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/backImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/detailsImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailsTextView"
+        tools:ignore="ContentDescription"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/custom_color_secondary"
+        app:layout_constraintEnd_toEndOf="@+id/detailsImageView"
+        app:layout_constraintStart_toStartOf="@+id/detailsImageView"
+        app:layout_constraintTop_toBottomOf="@id/detailsImageView"
+        tools:text="title" />
+
+    <TextView
+        android:id="@+id/descriptionTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Description"
+        android:textColor="@color/custom_color_secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/descriptionTitleTextView"
+        app:layout_constraintTop_toTopOf="@+id/descriptionTitleTextView"
+        tools:text="description"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/priceTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:fontFamily="sans-serif"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="309dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="56dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/ratingTitleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="price" />
+
+    <TextView
+        android:id="@+id/ratingTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Rating"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceTitleTextView"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:id="@+id/ratingTextView"
+        android:layout_width="344dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="112dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="rating" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

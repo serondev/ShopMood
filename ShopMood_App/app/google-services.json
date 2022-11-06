@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280897801173",
+    "project_id": "shopmood-app",
+    "storage_bucket": "shopmood-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280897801173:android:827f495a1f9ab2a41f4b5c",
+        "android_client_info": {
+          "package_name": "com.serkanonder.shopmood_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280897801173-nj0l9dluq0f2q0j7b99jja8d1ulmmbu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmdtBzbumXHpMBq8COMcP0JfwXUcv6Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280897801173-nj0l9dluq0f2q0j7b99jja8d1ulmmbu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

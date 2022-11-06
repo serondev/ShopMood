@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShopMood_App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    //Home Screen
+    <string name="title_categories">Categories</string>
+    //Home Bottom Sheet Dialog
+    <string name="home_bottomSheet_imageView_contentDescription">Product</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favorites</string>
+    <string name="title_notifications">Cart</string>
+    <string name="add_button">Add to Cart</string>
+    <string name="delete_button">Delete</string>
+    <string name="cart_imageView_contentDescription">Product</string>
+    <string name="home_imageView_contentDescription">Product</string>
+    <string name="home_imageButton_contentDescription">Favorite</string>
+</resources>

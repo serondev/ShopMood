@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.serkanonder.shopmood_app.presentation.products.view.ProductsFragment"
+        android:label="ProductsFragment">
+
+        <argument
+            android:name="productDetails"
+            app:argType="com.serkanonder.shopmood_app.presentation.productsdetils.model.ProductDetailsUiModel" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.serkanonder.shopmood_app.presentation.productsdetils.view.DetailsFragment"
+        android:label="DetailsFragment">
+        <argument
+            android:name="productDetails"
+            app:argType="com.serkanonder.shopmood_app.presentation.productsdetils.model.ProductDetailsUiModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.serkanonder.shopmood_app.ProfileFragment"
+        android:label="ProfileFragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.serkanonder.shopmood_app.SearchFragment"
+        android:label="SearchFragment">
+    </fragment>
+
+</navigation>
