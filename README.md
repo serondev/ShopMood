@@ -7,6 +7,8 @@ ShopMood is a mobile shopping application developed for those who love shopping 
 ![](https://media.giphy.com/media/ehOOE4WAp2forEo1KI/giphy.gif)
 ![](https://media.giphy.com/media/jqnFku3XOVIKiQXlyR/giphy.gif)
 
+## Screenshots
+![Screenshot](ss1.jpeg)
 
 ## Tech Stack
 - [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started) - Handle everything needed for in-app navigation. asynchronous tasks for optimal execution.
