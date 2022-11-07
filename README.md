@@ -8,11 +8,13 @@ ShopMood is a mobile shopping application developed for those who love shopping 
 ![](https://media.giphy.com/media/jqnFku3XOVIKiQXlyR/giphy.gif)
 
 ## Screenshots
+<p float="left>
 <img src="https://github.com/serondev/ShopMood/blob/main/screenshots/ss1.jpeg" alt="drawing" width="200"/>
 <img src="https://github.com/serondev/ShopMood/blob/main/screenshots/ss2.jpeg" alt="drawing" width="200"/>
 <img src="https://github.com/serondev/ShopMood/blob/main/screenshots/ss3.jpeg" alt="drawing" width="200"/>
 <img src="https://github.com/serondev/ShopMood/blob/main/screenshots/ss4.jpeg" alt="drawing" width="200"/>
 <img src="https://github.com/serondev/ShopMood/blob/main/screenshots/ss5.jpeg" alt="drawing" width="200"/>
+                                                                                                        </p>                                                                              
 
 ## Tech Stack
 - [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started) - Handle everything needed for in-app navigation. asynchronous tasks for optimal execution.
