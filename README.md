@@ -18,7 +18,7 @@ ShopMood is a mobile shopping application developed for those who love shopping 
                                                                                                         
 ## Video
 <div align="center">
-<a href="https://www.youtube.com/watch?v=pfQBi-Spxh0"><img src="https://img.youtube.com/vi/?v=pfQBi-Spxh0,jpg" alt="ShopMood App"></a>
+<a href="https://www.youtube.com/watch?v=pfQBi-Spxh0"> alt="ShopMood App"></a>
 </div>
 
 ## Tech Stack
@@ -59,7 +59,7 @@ ShopMood is a mobile shopping application developed for those who love shopping 
 
   ## Color Reference
 
-| Renk             | Hex                                                                |
+| Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | custom_color_primary | ![#0a192f](https://via.placeholder.com/10/643ae7?text=+) #643AE7 |
 | custom_color_secondary | ![#f8f8f8](https://via.placeholder.com/10/ff8f00?text=+) #FF8F00 |
