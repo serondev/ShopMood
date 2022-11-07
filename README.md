@@ -18,7 +18,7 @@ ShopMood is a mobile shopping application developed for those who love shopping 
                                                                                                         
 ## Video
 <div align="center">
-<a href="https://www.youtube.com/watch?v=pfQBi-Spxh0"> "ShopMood App"</a>
+<a href="https://www.youtube.com/watch?v=pfQBi-Spxh0"> ShopMood App </a>
 </div>
 
 ## Tech Stack
